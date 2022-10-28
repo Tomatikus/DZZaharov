@@ -65,13 +65,13 @@
 # отрицательных индексов.
 
 
-# t = int(input("Введите число: "))
+t = int(input("Введите число: "))
 
-# def fibonacci(n):
-#     a, b = 1, 1
-#     for i in range(n):
-#         yield a
-#         a, b = b, a + b
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        yield a
+        a, b = b, a + b
 
-# data = list(fibonacci(t))
-# print(data)
+data = list(fibonacci(t))
+print(data)
